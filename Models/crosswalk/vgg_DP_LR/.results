@@ -1,0 +1,262 @@
+Iteration 0, Accuracy = 0.17073 Loss = 1.9459100
+Loss = 0.5372840
+Loss = 0.7106850
+Loss = 0.3500170
+Loss = 0.0738204
+Loss = 0.2557080
+Loss = 0.1657560
+Loss = 0.0859489
+Loss = 0.1710960
+Iteration 1738, Accuracy = 0.88669 Loss = 0.1815710
+Loss = 0.1861140
+Loss = 0.0295232
+Loss = 0.2743090
+Loss = 0.0115969
+Loss = 0.0207921
+Loss = 0.1496790
+Loss = 0.0463189
+Loss = 0.5986560
+Iteration 3476, Accuracy = 0.86509 Loss = 0.1561770
+Loss = 0.0673130
+Loss = 0.0114433
+Loss = 0.0301687
+Loss = 0.0086409
+Loss = 0.0060165
+Loss = 0.0351443
+Loss = 0.0179925
+Loss = 0.0054495
+Iteration 5214, Accuracy = 0.87453 Loss = 0.1549460
+Loss = 0.0048874
+Loss = 0.0068366
+Loss = 0.0133276
+Loss = 0.0037022
+Loss = 0.0187490
+Loss = 0.0833329
+Loss = 0.0197455
+Iteration 6952, Accuracy = 0.85943 Loss = 0.0164643
+Loss = 0.1431350
+Loss = 0.0242162
+Loss = 0.0617767
+Loss = 0.0195211
+Loss = 0.0730549
+Loss = 0.0036018
+Loss = 0.0640565
+Loss = 0.0556490
+Iteration 8690, Accuracy = 0.88066 Loss = 0.0534364
+Loss = 0.0070264
+Loss = 0.0030210
+Loss = 0.0014773
+Loss = 0.0154747
+Loss = 0.0004486
+Loss = 0.0322142
+Loss = 0.0580984
+Loss = 0.1252520
+Iteration 10428, Accuracy = 0.86433 Loss = 0.0002133
+Loss = 0.0024254
+Loss = 0.0005881
+Loss = 0.0003118
+Loss = 0.0027138
+Loss = 0.1257860
+Loss = 0.0011630
+Loss = 0.0011587
+Iteration 12166, Accuracy = 0.88557 Loss = 0.0696809
+Loss = 0.0024264
+Loss = 0.0004107
+Loss = 0.0066842
+Loss = 0.0017350
+Loss = 0.0003607
+Loss = 0.0329678
+Loss = 0.0003359
+Loss = 0.0003256
+Iteration 13904, Accuracy = 0.85419 Loss = 0.0014218
+Loss = 0.0195237
+Loss = 0.0433980
+Loss = 0.0219478
+Loss = 0.0033964
+Loss = 0.2351720
+Loss = 0.0044063
+Loss = 0.0078398
+Loss = 0.0009399
+Iteration 15642, Accuracy = 0.84404 Loss = 0.0006431
+Loss = 0.0000648
+Loss = 0.0004575
+Loss = 0.0020327
+Loss = 0.0001327
+Loss = 0.0051971
+Loss = 0.0024181
+Loss = 0.0009434
+Iteration 17380, Accuracy = 0.87366 Loss = 0.0078749
+Loss = 0.0579550
+Loss = 0.0048889
+Loss = 0.0009187
+Loss = 0.0001087
+Loss = 0.0016422
+Loss = 0.0016550
+Loss = 0.0006581
+Loss = 0.0001215
+Iteration 19118, Accuracy = 0.89192 Loss = 0.0002600
+Loss = 0.0004341
+Loss = 0.0003438
+Loss = 0.0000444
+Loss = 0.0074386
+Loss = 0.0002897
+Loss = 0.0001213
+Loss = 0.0000038
+Loss = 0.0004525
+Iteration 20856, Accuracy = 0.89450 Loss = 0.0000302
+Loss = 0.0162623
+Loss = 0.0000010
+Loss = 0.0005860
+Loss = 0.0000007
+Loss = 0.0000473
+Loss = 0.0000044
+Loss = 0.0000256
+Iteration 22594, Accuracy = 0.90241 Loss = 0.0011684
+Loss = 0.0000078
+Loss = 0.0000469
+Loss = 0.0000165
+Loss = 0.0052098
+Loss = 0.0002863
+Loss = 0.0000161
+Loss = 0.0000333
+Loss = 0.0001867
+Iteration 24332, Accuracy = 0.90060 Loss = 0.0000015
+Loss = 0.0019820
+Loss = 0.0000515
+Loss = 0.0001389
+Loss = 0.0006441
+Loss = 0.0000298
+Loss = 0.0000787
+Loss = 0.0013829
+Loss = 0.0000955
+Iteration 26070, Accuracy = 0.90082 Loss = 0.0000004
+Loss = 0.0000010
+Loss = 0.0000154
+Loss = 0.0000156
+Loss = 0.0000254
+Loss = 0.0000142
+Loss = 0.0000083
+Loss = 0.0000021
+Loss = 0.0000450
+Iteration 27808, Accuracy = 0.89958 Loss = 0.0000022
+Loss = 0.0000624
+Loss = 0.0000036
+Loss = 0.0000312
+Loss = 0.0000205
+Loss = 0.0000660
+Loss = 0.0000044
+Loss = 0.0051917
+Iteration 29546, Accuracy = 0.89932 Loss = 0.0000026
+Loss = 0.0000967
+Loss = 0.0003239
+Loss = 0.0000817
+Loss = 0.0000620
+Loss = 0.0000091
+Loss = 0.0000176
+Loss = 0.0000160
+Loss = 0.0000045
+Iteration 31284, Accuracy = 0.89799 Loss = 0.0000061
+Loss = 0.0000247
+Loss = 0.0000047
+Loss = 0.0000088
+Loss = 0.0004166
+Loss = 0.0000021
+Loss = 0.0000434
+Loss = 0.0001185
+Loss = 0.0000005
+Iteration 33022, Accuracy = 0.90133 Loss = 0.0075705
+Loss = 0.0000151
+Loss = 0.0000032
+Loss = 0.0002178
+Loss = 0.0005637
+Loss = 0.0004921
+Loss = 0.0000072
+Loss = 0.0000513
+Iteration 34760, Accuracy = 0.90193 Loss = 0.0002319
+Loss = 0.0107461
+Loss = 0.0000184
+Loss = 0.0000064
+Loss = 0.0000051
+Loss = 0.0000132
+Loss = 0.0000981
+Loss = 0.0000039
+Loss = 0.0000026
+Iteration 36498, Accuracy = 0.90186 Loss = 0.0002279
+Loss = 0.0001632
+Loss = 0.0002614
+Loss = 0.0002057
+Loss = 0.0000026
+Loss = 0.0000322
+Loss = 0.0006606
+Loss = 0.0000204
+Loss = 0.0000015
+Iteration 38236, Accuracy = 0.90168 Loss = 0.0000110
+Loss = 0.0000012
+Loss = 0.0001093
+Loss = 0.0000167
+Loss = 0.0000268
+Loss = 0.0000775
+Loss = 0.0000639
+Loss = 0.0001104
+Iteration 39974, Accuracy = 0.90177 Loss = 0.0001966
+Loss = 0.0002214
+Loss = 0.0011735
+Loss = 0.0000119
+Loss = 0.0000106
+Loss = 0.0000383
+Loss = 0.0000009
+Loss = 0.0000154
+Loss = 0.0000205
+Iteration 41712, Accuracy = 0.90159 Loss = 0.0000218
+Loss = 0.0000200
+Loss = 0.0000159
+Loss = 0.0001953
+Loss = 0.0038561
+Loss = 0.0000038
+Loss = 0.0000623
+Loss = 0.0000075
+Loss = 0.0000043
+Iteration 43450, Accuracy = 0.90155 Loss = 0.0000497
+Loss = 0.0020718
+Loss = 0.0000207
+Loss = 0.0000240
+Loss = 0.0000047
+Loss = 0.0000066
+Loss = 0.0000011
+Loss = 0.0000707
+Iteration 45188, Accuracy = 0.90162 Loss = 0.0011837
+Loss = 0.0000360
+Loss = 0.0000104
+Loss = 0.0000005
+Loss = 0.0000344
+Loss = 0.0002985
+Loss = 0.0013399
+Loss = 0.0000005
+Loss = 0.0000050
+Iteration 46926, Accuracy = 0.90170 Loss = 0.0000152
+Loss = 0.0001262
+Loss = 0.0000040
+Loss = 0.0000383
+Loss = 0.0000059
+Loss = 0.0000027
+Loss = 0.0000227
+Loss = 0.0000376
+Loss = 0.0000094
+Iteration 48664, Accuracy = 0.90151 Loss = 0.0001030
+Loss = 0.0000074
+Loss = 0.0001149
+Loss = 0.0007067
+Loss = 0.0000229
+Loss = 0.0000327
+Loss = 0.0000395
+Loss = 0.0000032
+Loss = 0.0000057
+Iteration 50402, Accuracy = 0.90167 Loss = 0.0002798
+Loss = 0.0003012
+Loss = 0.0000736
+Loss = 0.0002690
+Loss = 0.0000105
+Loss = 0.0000034
+Loss = 0.0000177
+Loss = 0.0017186
+Iteration 52140, Accuracy = 0.90180 
