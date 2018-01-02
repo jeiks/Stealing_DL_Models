@@ -1,0 +1,22 @@
+net: "prototxt/train_test.prototxt"
+# test_iter: (qnt imagens de TESTE) / (batch de TESTE)
+test_iter: 2141
+# test_interval: (qnt imagens de TREINO) / (batch de TREINO) -- equivale a 1 epoca
+test_interval: 1738
+display: 200
+base_lr: 0.005
+lr_policy: "step"
+# stepsize: frequencia para decair o learning rate.
+# Geralmente 1/3 de todo treino.
+# Ex. para 30 epocas: test_interval*30*(1/3)
+stepsize: 17384
+gamma: 0.1
+# max_iter: quantas epocas para treinar.
+# Ex.: 30 epocas, entao test_interval*30
+max_iter: 52152
+momentum: 0.9
+# como o base_lr deve ir caindo nas ultimas iteracoes
+weight_decay: 0.0005
+snapshot: 1738
+snapshot_prefix: "models/snapshot"
+solver_mode: GPU
