@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Author: Jacson R C Silva <jacsonrcsilva@gmail.com>
 
 from imageio import imread, imwrite
 from imgaug import augmenters as iaa
@@ -106,9 +105,11 @@ def get_aug_methods():
      iaa.Add((-20, 40)),
      # contrast normalization
      iaa.ContrastNormalization((1., 1.5)),
-     # piecewise affine
+     # piecewise affine 1
      iaa.PiecewiseAffine(scale=(0.01, 0.05)),
+     # piecewise affine 2
      iaa.PiecewiseAffine(scale=(0.01, 0.05)),
+     # piecewise affine 3
      iaa.PiecewiseAffine(scale=(0.01, 0.05)),
      # rotate + translate + scale + piecewise affine
      iaa.Sequential([
@@ -164,4 +165,9 @@ if __name__ == '__main__':
     ia.seed(1)
     classes = open_file(filenames)
     seq     = get_aug_methods()
+    from sys import exit
+    for i in seq:
+        print(i)
+        print('')
+    exit(0)
     create_images(classes, seq, targetdir)
