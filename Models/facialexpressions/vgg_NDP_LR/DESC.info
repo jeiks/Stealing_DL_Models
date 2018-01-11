@@ -1,0 +1,15 @@
+It was trained with all ImageNet + Decathlon + Microsoft COCO images
+But the script used the wrong solver.
+Then, the log is different from the real epochs runs.
+In true, we have: last iteration / test_interval
+544000 / 106895 = 5.089106
+Then, we had 5 training epochs
+
+  Images Class
+  604242 0
+ 1661557 1
+  134573 2
+   52915 3
+   53780 4
+  689230 5
+  224365 6
