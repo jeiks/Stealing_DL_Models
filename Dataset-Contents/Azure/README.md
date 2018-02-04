@@ -8,6 +8,7 @@
 - 207 for happy
 - 84 for sadness
 - 249 for surprise
+
 Total: 1236
 
 [PD-OL](PD-OL.tar.bz2):
@@ -18,6 +19,7 @@ Total: 1236
 - 9380 for happy
 - 9380 for sadness
 - 9380 for surprise
+
 Total: 65659
 
 [PD-SL](PD-SL.tar.bz2):
@@ -28,6 +30,7 @@ Total: 65659
 - 11302 for happy
 - 1785 for sadness
 - 5488 for surprise
+
 Total: 65659
 
 [NPD-SL](NPD-SL.tar.bz2):
@@ -38,6 +41,7 @@ Total: 65659
 - 352485 for happy
 - 52740 for sadness
 - 40255 for surprise
+
 Total: 3420588
 
 Information about original image names: [info](NPD-SL_info.tar.bz2)

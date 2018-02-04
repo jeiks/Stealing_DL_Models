@@ -8,6 +8,7 @@
 - 7832 for happy
 - 7327 for sadness
 - 8388 for surprise
+
 Total: 55629
 
 [TD](TD.tar.bz2):
@@ -18,6 +19,7 @@ Total: 55629
 - 207 for happy
 - 84 for sadness
 - 249 for surprise
+
 Total: 1236
 
 [PD-OL](PD-OL.tar.bz2):
@@ -48,4 +50,5 @@ Total: 1236
 - 55109 for happy
 - 628777 for sadness
 - 222479 for surprise
+
 Total: 3420654

@@ -10,6 +10,7 @@
 - 5000 for horse
 - 5000 for ship
 - 5000 for truck
+
 Total: 45000
 
 [TD](TD.tar.bz2):
@@ -22,6 +23,7 @@ Total: 45000
 - 1000 for horse
 - 1000 for ship
 - 1000 for truck
+
 Total: 9000
 
 [PD-OL](PD-OL.tar.bz2):
@@ -34,6 +36,7 @@ Total: 9000
 - 29900 for horse
 - 29900 for ship
 - 29900 for truck
+
 Total: 269100
 
 [PD-SL](PD-SL.tar.bz2):
@@ -46,6 +49,7 @@ Total: 269100
 - 22514 for horse
 - 27833 for ship
 - 20112 for truck
+
 Total: 269100
 
 [NPD-SL](NPD-SL.tar.bz2):
@@ -58,4 +62,5 @@ Total: 269100
 - 251876 for horse
 - 190231 for ship
 - 268971 for truck
+
 Total: 3420662
