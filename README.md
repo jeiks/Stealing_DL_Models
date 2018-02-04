@@ -11,7 +11,7 @@ This hypothesis was evaluated locally in three problems (facial expression, obje
 |**On the left, the target network is trained with an original (confidential) dataset and is served publicly as an API, receiving images as input and providing class labels as output. On the right, it is presented the process to get stolen labels and to create a fake dataset: random natural images are sent to the API and the labels are obtained. After that, the copycat network is trained using this fake dataset.**|
 
 ## Datasets Contents
-The images were obtained from public datasets. But they require a registration before download.
+The images were obtained from public datasets. But they require a registration before download. 
 
 Here we present the contents necessary to create a equivalent dataset after download the images from their original source.
 
@@ -22,7 +22,7 @@ Problems:
 - [MSAPI (Azure)](Dataset-Contents/Azure).
 
 ## Networks
-All networks were generated with caffe. The weights (caffemodel) and solverstates are compacted using 7zip.
+All networks were generated with caffe. The weights (caffemodel) and solverstates were compacted using 7zip.
 
 Problems:
 - [FER](Networks/FER).
