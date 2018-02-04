@@ -22,7 +22,7 @@ Problems:
 - [MSAPI (Azure)](Dataset-Contents/Azure).
 
 ## Networks
-All networks were generated with caffe. The weights (caffemodel) and solverstates were compacted using 7zip.
+All networks were generated with Caffe. The weights (caffemodel) and solverstates were compacted using 7zip.
 
 Problems:
 - [FER](Networks/FER).
