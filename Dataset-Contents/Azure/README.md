@@ -1,4 +1,4 @@
-## Crosswalk datasets
+## Azure datasets
 
 [TD](TD.tar.bz2):
 - 309 for normal
