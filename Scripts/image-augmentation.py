@@ -169,4 +169,4 @@ if __name__ == '__main__':
     for i in seq:
         print(i)
         print('')
-        create_images(classes, seq, targetdir)
+    create_images(classes, seq, targetdir)
