@@ -1,4 +1,4 @@
-# (preprint) Is Random Non-Labeled Data Enough to Steal Knowledge from Black-box Models and Generate Copycat CNN?
+# (under evaluation) Is Random Non-Labeled Data Enough to Steal Knowledge from Black-box Models and Generate Copycat CNN?
 
 ![copycat2](copycat2.svg)
 
