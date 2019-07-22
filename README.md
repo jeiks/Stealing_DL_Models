@@ -2,9 +2,9 @@
 
 ## 1. Stealing Knowledge by Persuading Confession with Random Non-Labeled Data
 
-![Copycat](copycat.svg)
+![Copycat](Copycat_CNN/copycat.svg)
 
-[Project Details and Code](Copycat_CNN.md)
+[Project Details and Code](Copycat_CNN/README.md)
 
 This paper is available on [arXiv](https://arxiv.org/abs/1806.05476)
 
@@ -21,6 +21,6 @@ This paper is available on [arXiv](https://arxiv.org/abs/1806.05476)
 
 ## 2. Is Random Non-Labeled Data Enough to Steal Knowledge from Black- box Models and Generate Copycat CNN?
 
-![Copycat2](copycat2.svg)
+![Copycat2](Copycat_CNN-Expansion/copycat.svg)
 
-[Project Details and Code](Copycat_CNN_Expanded.md)
+[Project Details and Code](Copycat_CNN-Expansion/README.md)
