@@ -4,7 +4,7 @@
 
 ![Copycat](Copycat_CNN/copycat.svg)
 
-[Project Details and Code](Copycat_CNN/README.md)
+[Project Details and Code](Copycat_CNN/)
 
 This paper is available on [arXiv](https://arxiv.org/abs/1806.05476)
 
@@ -23,4 +23,4 @@ This paper is available on [arXiv](https://arxiv.org/abs/1806.05476)
 
 ![Copycat2](Copycat_CNN-Expansion/copycat.svg)
 
-[Project Details and Code](Copycat_CNN-Expansion/README.md)
+[Project Details and Code](Copycat_CNN-Expansion/)
