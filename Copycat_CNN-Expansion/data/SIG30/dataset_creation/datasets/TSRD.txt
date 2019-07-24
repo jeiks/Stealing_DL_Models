@@ -1,0 +1,4 @@
+Download the following files:
+  TSRD-Test.zip
+  tsrd-train.zip
+from: http://www.nlpr.ia.ac.cn/pal/trafficdata/recognition.html

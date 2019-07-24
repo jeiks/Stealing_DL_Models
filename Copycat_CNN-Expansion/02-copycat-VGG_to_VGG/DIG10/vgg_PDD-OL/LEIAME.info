@@ -1,0 +1,2 @@
+The NIST images colors were changed to be compatible with MNIST,
+i.e., background black and foreground white.

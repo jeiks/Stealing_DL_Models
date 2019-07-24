@@ -1,0 +1,194 @@
+--- compute_heatmaps.cpp.ORIG	2019-07-23 16:27:21.429744346 -0300
++++ compute_heatmaps.cpp	2019-07-23 16:11:31.705709032 -0300
+@@ -1,12 +1,3 @@
+-//
+-
+-/*
+-
+- g++ heatmapcomp_nogui_filelist.cpp -o hmcomp_lrp_filelist -I ../include/ -I ../build/src/  -I /usr/include/ImageMagick/ -I /usr/local/cuda-6.5/include -I /home/binder/installed_sw/open_cv_2_4_11/include/    -L /home/binder/installed_sw/open_cv_2_4_11/lib/ -L/usr/local/cuda-6.5/lib64   -Wl,--whole-archive  ../build/lib/libcaffe.a  -Wl,--no-whole-archive -lcudart -lcublas -lcurand -lpthread -lglog -lgflags -lprotobuf -lleveldb -lsnappy -lboost_system -lhdf5_hl -lhdf5 -llmdb -lopencv_core -lopencv_highgui -lopencv_imgproc -latlas -lcblas  -Wall -lMagick++ -lMagickWand -lMagickCore -lboost_filesystem -lboost_system -lboost_thread  -lpthread
+-
+- //`pkg-config gtkmm-3.0 --cflags --libs`
+- */
+-
+ #include <vector>
+ #include <iostream>
+ #include <string>
+@@ -610,35 +601,30 @@
+ 				<< std::endl;
+ 		std::vector<int> classinds2(1, permutation[numclasses - 1]);
+ 
+-		if (classindstype == -2) {
++		if (classindstype == -2)
++		{
+ 			classinds2.resize(std::min(5, numclasses));
+-			for (int i = 0; i < (int) classinds2.size(); ++i) {
+-
++			for (int i = 0; i < (int) classinds2.size(); ++i)
++			{
+ 				classinds2[i] = permutation[numclasses - 1 - i];
+ 				std::cout << "heatmapping for " << classinds2[i] << std::endl;
+ 			}
+-		} else if (classindstype >= 0) {
++		}
++		else if (classindstype >= 0) 
++		{
+ 			classinds2[0] = classindstype;
+ 			std::cout << "heatmapping for " << classinds2[0] << std::endl;
+ 		}
+ 
+-		if(ro.relpropformulatype == 99){
++		if(ro.relpropformulatype == 99)
+ 			ro.relpropformulatype = 11;
+-		}
++		
+         if (ro.relpropformulatype == 11)
+         {
+             net_->Backward_Gradient(classinds2, rawhm, ro);
+-            //compute gradient l2 norm
+             for(int p = 0; p< (int) rawhm[0].size(); ++p)
+             {
+                 double norm = sqrt(rawhm[0][p]*rawhm[0][p] + rawhm[1][p]*rawhm[1][p] + rawhm[2][p]*rawhm[2][p]);
+-                /*if (norm < 0)
+-                {
+-                    std::cout << "IMPOSSSIBLE! NORM IS " << norm << std::endl ;
+-                }else
+-                {
+-                    std::cout << norm << std::endl;
+-                }*/
+                 rawhm[0][p] = norm;
+                 rawhm[1][p] = norm;
+                 rawhm[2][p] = norm;
+@@ -653,31 +639,36 @@
+ 
+ 	std::cout << "posthm " << std::endl;
+ 
+-	{
++	/*{
+ 
+ 		std::vector<double> vs(rawhm[0].size(), 0);
+ 		double maxabs = 0;
+-		for (int i = 0; i < (int) vs.size(); ++i) {
++		for (int i = 0; i < (int) vs.size(); ++i)
++        {
+ 			vs[i] = (rawhm[0][i] + rawhm[1][i] + rawhm[2][i]) / 3.0;
+ 			//maxabs=std::max(maxabs,fabs(hues[i]));
+ 			maxabs = std::max(maxabs, vs[i]);
+ 		}
+ 
+ 		std::vector<std::vector<double> > img5(3);
+-		for (int ch = 0; ch < 3; ++ch) {
++		for (int ch = 0; ch < 3; ++ch)
++        {
+ 			img5[ch].resize(rawhm[ch].size());
+ 			std::fill(img5[ch].begin(), img5[ch].end(), 0);
+ 		}
+ 
+-		if (maxabs > 0) {
+-			for (int h = 0; h < inhei; ++h) {
+-				for (int w = 0; w < inwid; ++w) {
+-					if (vs[(h) + w * inhei] < 0) {
+-						img5[2][(h) + w * inhei] = -vs[(h) + w * inhei]
+-								/ maxabs;
++		if (maxabs > 0)
++        {
++			for (int h = 0; h < inhei; ++h)
++            {
++				for (int w = 0; w < inwid; ++w)
++                {
++					if (vs[(h) + w * inhei] < 0)
++                    {
++						img5[2][(h) + w * inhei] = -vs[(h) + w * inhei]	/ maxabs;
+ 					} else {
+-						img5[0][(h) + w * inhei] = vs[(h) + w * inhei] / maxabs;
+-						img5[1][(h) + w * inhei] = vs[(h) + w * inhei] / maxabs;
++						img5[0][(h) + w * inhei] =  vs[(h) + w * inhei] / maxabs;
++						//img5[1][(h) + w * inhei] =  vs[(h) + w * inhei] / maxabs;
+ 					}
+ 
+ 					//img5[ch][(h) + w * inhei] = jethm[ch][(h) + w * inhei];
+@@ -691,16 +682,16 @@
+ 		std::string outf = outputname + "_heatmap.png";
+ 		saveimgaspng(outf, inhei, inwid, img5);
+ 
+-	}
++    }*/
+ 
+ 	{
+ 		std::string outf = outputname + "_top10scores.txt";
+ 		std::ofstream f;
+ 		f.open(outf.c_str());
+-		//output classinfo for min(numclasses,10) classes
+-		for (int i = 0; i < std::min(10, numclasses); ++i) {
+-			f << permutation[numclasses - 1 - i] << " "
+-					<< values[permutation[numclasses - 1 - i]] << std::endl;
++		for (int i = 0; i < std::min(10, numclasses); ++i)
++		{
++			f << permutation[numclasses - 1 - i]         << " "
++			  << values[permutation[numclasses - 1 - i]] << std::endl;
+ 		}
+ 		f.close();
+ 	}
+@@ -714,31 +705,30 @@
+ 		f << 3 << std::endl;
+ 		f << inhei << " " << inwid << std::endl;
+ 
+-		for (int ch = 0; ch < 3; ++ch) {
+-			for (int h = 0; h < inhei; ++h) {
+-				for (int w = 0; w < inwid; ++w) {
++		for (int ch = 0; ch < 3; ++ch)
++		{
++			for (int h = 0; h < inhei; ++h)
++			{
++				for (int w = 0; w < inwid; ++w)
+ 					f << rawhm[ch][(h) + w * inhei] << " ";
+-				}
++
+ 				f << std::endl;
+ 			}
+ 		}
+ 
+ 		f.close();
+ 
+-		//std::string outfile2 = outputname + "_as_inputted_into_the_dnn.jpg";
+ 		std::string outfile2 = outputname + "_as_inputted_into_the_dnn.png";
+-		if (img_asinputted.size() == 3) {
++		//std::string outfile2 = outputname;
++		if (img_asinputted.size() == 3)
++		{
+ 			if (((int) img_asinputted[0].size() == inhei * inwid)
+ 					&& ((int) img_asinputted[1].size() == inhei * inwid)
+-					&& ((int) img_asinputted[2].size() == inhei * inwid)) {
+-				//saveimgasjpg(outfile2, inhei, inwid, img_asinputted);
++					&& ((int) img_asinputted[2].size() == inhei * inwid))
+ 				saveimgaspng(outfile2, inhei, inwid, img_asinputted);
+-			}
+ 		}
+ 
+-	} //if(configs.outputheatmapstocurrentpath>0)
+-
+-	//outputname+"_heatmap.jpg"
++	}
+ }
+ 
+ void readablob3d(std::vector<std::vector<float> > & channels, int & imgmeanhei,
+@@ -1366,7 +1356,7 @@
+ 
+ 	if (argc - 1 != 3) {
+ 		std::cout << "num arguments: " << argc - 1 << " needed 3" << std::endl;
+-		std::cout << "usage: ./this configfile imageLIST prependpath"
++		std::cout << "usage: " << argv[0] << " configfile imageLIST prependpath"
+ 				<< std::endl;
+ 		exit(1);
+ 	}
+@@ -1417,9 +1407,9 @@
+ 	}
+ 
+ 	for (size_t i = 0; i < flist.size(); ++i) {
+-		LOG(INFO) << "processing file: " << flist[i] << " classindstype: " << classindstypesvec[i];
++		std::cout << "processing file: " << flist[i] << " classindstype: " << classindstypesvec[i] << std::endl;
+ 		hru.process_heatmap(flist[i], classindstypesvec[i]);
+-		LOG(INFO) << "FINISHED processing file: " << flist[i];
++		//LOG(INFO) << "FINISHED processing file: " << flist[i];
+ 	}
+ 	std::cout << "finished" << std::endl;
+ 	return 0;

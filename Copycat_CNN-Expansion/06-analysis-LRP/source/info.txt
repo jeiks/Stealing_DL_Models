@@ -1,0 +1,4 @@
+The original file is:
+https://github.com/sebastian-lapuschkin/lrp_toolbox/raw/master/caffe-master-lrp/demonstrator/compute_heatmaps.cpp
+
+The differences between them are in file "patch"

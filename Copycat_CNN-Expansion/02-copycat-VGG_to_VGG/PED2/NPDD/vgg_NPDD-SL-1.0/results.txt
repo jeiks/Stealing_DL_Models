@@ -1,0 +1,7 @@
+Average: 0.994218
+Micro Average: 0.994218
+Macro Average: 0.994214
+Confusion Matrix:
+           0        1
+ 0:     2851       29 
+ 1:        5     2995 

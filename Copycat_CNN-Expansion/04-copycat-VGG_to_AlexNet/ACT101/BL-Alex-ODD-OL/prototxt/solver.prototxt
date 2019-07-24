@@ -1,0 +1,16 @@
+net: "prototxt/train_test.prototxt"
+test_iter: 2679
+test_interval: 34821
+display: 100
+base_lr: 0.0005
+lr_policy: "step"
+stepsize: 11607
+gamma: 0.7
+max_iter: 34821
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 6964
+snapshot_prefix: "models/snapshot"
+solver_mode: GPU
+test_initialization: false
+store_blobs_in_old_format: true

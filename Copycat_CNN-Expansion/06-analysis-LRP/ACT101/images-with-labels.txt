@@ -1,0 +1,4 @@
+TD/test_WalkingWithDog_v_WalkingWithDog_g05_c03_00000096.jpg 97 97 97
+TD/test_BabyCrawling_v_BabyCrawling_g07_c06_00000048.jpg 3 3 24
+TD/test_YoYo_v_YoYo_g01_c07_00000023.jpg 100 20 100
+TD/test_Biking_v_Biking_g05_c07_00000177.jpg 10 10 10

@@ -1,0 +1,3 @@
+Download the following file:
+  data.zip
+from: http://cg.cs.tsinghua.edu.cn/traffic-sign/

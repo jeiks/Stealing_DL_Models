@@ -1,0 +1,14 @@
+Firstly, 1000 examples per class were selected from ODD.
+The vectors referred to are in:
+-> DIG10-OD-1000.txt
+
+After, 200000 examples were selected from NPDD.
+The vectors referred to are in:
+-> DIG10_Original_NPD-a.txt, DIG10_Original_NPD-b.txt
+
+Then the examples per class was counted and 1700 vectors
+per class were maintained:
+-> DIG10-NPD-1700.txt
+
+To obtain T-SNE chart, run the following command:
+$ ./tsne.py DIG10-OD-1000.txt DIG10-NPD-1700.txt

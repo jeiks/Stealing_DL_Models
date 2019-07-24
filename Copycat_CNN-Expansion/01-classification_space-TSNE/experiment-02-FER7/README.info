@@ -1,0 +1,14 @@
+Firstly, 1000 examples per class were selected from ODD.
+The vectors referred to are in:
+-> FER7-OD-1000.txt
+
+After, 200000 examples were selected from NPDD.
+The vectors referred to are in:
+-> FER7_Original_NPD-a.txt, FER7_Original_NPD-b.txt
+
+Then the examples per class was counted and 3200 vectors
+per class were maintained:
+-> FER7-NPD-gray-3200.txt
+
+To obtain T-SNE chart, run the following command:
+$ ./tsne.py FER7-OD-1000.txt FER7-NPD-3200.txt
