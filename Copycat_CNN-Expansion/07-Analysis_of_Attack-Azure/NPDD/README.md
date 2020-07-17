@@ -16,7 +16,7 @@ To plot the Copycat performances on Analysis of API Attack, run the code:
    * [vgg_NPDD-SL-3.0/results.txt](vgg_NPDD-SL-3.0/results.txt)
    
    by the Macro Average of the API (0.350943).<br>
-   The Macro Average is calculated using [FER7 TDD](../../data/FER7/TD.txt.7z).<br>
+   The dataset used to calculate the Macro Average is [FER7 TDD](../../data/FER7/TD.txt.7z).<br>
    More details in [Copycat_Results_on_Azure.ods](Copycat_Results_on_Azure.ods)
 
 
