@@ -2,5 +2,10 @@
 
 ![Copycat](copycat.svg)
 
-Convolutional neural networks have been extremely successful in a wide range of tasks and companies have been developing products based on them. These products use models that result from an expensive process: data is acquired and annotated, then experts have prepare the data and design, implement, and train the models. With all these costs, companies are concerned about the security of their models and deliver them as black-boxes. There are still some vulnerabilities to exploit, though. In a preliminary work, we presented Copycat CNN: a simple, yet powerful, method to copy black-box models by querying them with random natural images. In this work, we consolidate and extend the copycat method by waiving some constraints and performing an extensive evaluation with several problems, copying between different architectures, and presenting a deeper analysis. Results show that random natural images are effective to generate copycat models with similar functionalities to the black-box model.
-
+Convolutional neural networks have been extremely successful lately enabling companies to develop neural-based products.
+These products demand an expensive process, involving data acquisition and annotation; and model generation, usually requiring experts.
+With all these costs, companies are concerned about the security of their models against copies and deliver them as black-boxes accessed by APIs.
+Nonetheless, we argue that even black-box models still have some vulnerabilities.
+In a preliminary work, we presented a simple, yet powerful, method to copy black-box models by querying them with natural random images.
+In this work, we consolidate and extend the copycat method. Firstly, some constraints are waived. Secondly, an extensive evaluation with several problems is performed. Thirdly, models are copied between different architectures. Finally, a deeper analysis is performed by looking at the copycat behavior.
+Results show that natural random images are effective to generate copycats with similar functionalities w.r.t black-box models for several problems.
