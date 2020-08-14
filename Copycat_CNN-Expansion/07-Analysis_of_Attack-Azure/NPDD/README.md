@@ -18,7 +18,7 @@ To plot the Copycat performances on Analysis of API Attack, run the code:
    by the Macro Average of the API (0.350943).<br>
    The dataset used to calculate the Macro Average is [FER7 TDD](../../data/FER7/TD.txt.7z).<br>
    More details in [Copycat_Results_on_Azure.ods](Copycat_Results_on_Azure.ods)
-
+* **[Answers obtained from Emotion API](https://drive.google.com/drive/folders/1vrIjohM2mtwHT1gpj6LDScg0B-tD8UJ1?usp=sharing)**
 
 ![Analysis of Attack Viability](Azure.svg)
 <br>*Performance of Copycats over Azure API on different sizes of NPDD subsets.*
