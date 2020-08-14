@@ -68,7 +68,8 @@ if __name__ == '__main__':
                 running_loss += loss.item()
 
                 if i % 200 == 199:
-                    tqdm_loader.set_description('Epoch: {}/{} Loss: {:.3f}'.format(epoch, max_epochs, running_loss/200.))
+                    tqdm_loader.set_description('Epoch: {}/{} Loss: {:.3f}'.format(
+                        epoch+1, max_epochs, running_loss/200.))
                     running_loss = 0.0
 
     print('Model trained.')

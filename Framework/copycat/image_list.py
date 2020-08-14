@@ -5,7 +5,6 @@ import numpy as np
 import torch
 import cv2
 #from PIL import Image
-from torchvision.datasets.utils import download_url, makedir_exist_ok
 from torchvision.transforms import ToPILImage
 from tqdm import tqdm
 from sys import stderr

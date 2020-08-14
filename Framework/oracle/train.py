@@ -9,6 +9,7 @@ import torch.optim as optim
 import matplotlib.pyplot as plt
 import numpy as np
 import random
+from tqdm import tqdm
 #local files:
 from model import CNN
 from cifar_data import get_datasets
@@ -58,28 +59,30 @@ if __name__ == '__main__':
 
     print('Training model...')
     model = model.to(device)
-    for epoch in range(20):
+    max_epochs = 20
+    for epoch in range(max_epochs):
         running_loss = 0.0
-        for i, data in enumerate(datasets['train'], 0):
-            # get the inputs; data is a list of [inputs, labels]
-            inputs, labels = data
-            inputs, labels = inputs.to(device), labels.to(device)
+        with tqdm(datasets['train']) as tqdm_train:
+            for i, data in enumerate(tqdm_train):
+                # get the inputs; data is a list of [inputs, labels]
+                inputs, labels = data
+                inputs, labels = inputs.to(device), labels.to(device)
 
-            # zero the parameter gradients
-            optimizer.zero_grad()
+                # zero the parameter gradients
+                optimizer.zero_grad()
 
-            # forward + backward + optimize
-            outputs = model(inputs)
-            loss = criterion(outputs, labels)
-            loss.backward()
-            optimizer.step()
+                # forward + backward + optimize
+                outputs = model(inputs)
+                loss = criterion(outputs, labels)
+                loss.backward()
+                optimizer.step()
 
-            # print statistics
-            running_loss += loss.item()
-            if i % 2000 == 1999:    # print every 2000 mini-batches
-                print('[%d, %5d] loss: %.3f' %
-                    (epoch + 1, i + 1, running_loss / 2000))
-                running_loss = 0.0
+                # print statistics
+                running_loss += loss.item()
+                if i % 200 == 199:
+                    tqdm_train.set_description('Epoch: {}/{} Loss: {:.3f}'.format(
+                        epoch+1, max_epochs, running_loss / 200.))
+                    running_loss = 0.0
 
     print('Model trained.')
     print('Saving the model to "{}"'.format(model_fn))
