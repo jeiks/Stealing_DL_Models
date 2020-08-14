@@ -5,7 +5,7 @@
   <h3>Your answer is my key to gain knowledge!</h3>
 </p>
 
-#### Are your model safe of can I _Copycat_ it?
+#### Are your model safe or can I _Copycat_ it?
 
 In the past few years, Convolutional Neural Networks (CNNs) have been achieving state-of-the-art performance on a variety of problems.
 Many companies employ resources and money to generate these models and provide them to users around the world, therefore it is in their best interest to protect them, i.e., to avoid that someone else copy them.
