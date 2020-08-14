@@ -12,7 +12,7 @@ Many companies employ resources and money to generate these models and provide t
 Several studies revealed that state-of-the-art CNNs are vulnerable to adversarial examples attacks, and this weakness indicates that CNNs do not need to operate in the problem domain.
 Therefore, we hypothesize that they also do not need to be trained with examples of the Problem Domain in order to operate in it.
 
-[Our research](../) presented a simple method to attack a model and steal its knowledge. And the experiments presented high accuracies, showing that is possible to copy a black-box model.
+[Our research](https://github.com/jeiks/Stealing_DL_Models) presented a simple method to attack a model and steal its knowledge. And the experiments presented high accuracies, showing that is possible to copy a black-box model.
 The process uses only Random Natural Images (ImageNet and Microsoft COCO) labeled (hard-label) by target model.
 The main difference between our work and others is that we only use the hard-labels, i.e., it is not necessary to know the probabilities of the target model, only the classification label for each image.
 
