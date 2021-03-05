@@ -19,7 +19,7 @@ This paper is available on [arXiv](https://arxiv.org/abs/1806.05476)
       month={July}
     }
 
-## 2. Is Random Non-Labeled Data Enough to Steal Knowledge from Black-box Models and Generate Copycat CNN?
+## 2. Copycat CNN: Are Random Non-Labeled Data Enough to Steal Knowledge from Black-box Models?
 
 ![Copycat2](Copycat_CNN-Expansion/copycat.svg)
 
