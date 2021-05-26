@@ -1,14 +1,5 @@
 # Copycat CNN
 
-Here you will find the models, the dataset information and the code used in our experiments (Copycat and Copycat Expansion). Feel free to contact me for any doubts or suggestions (jacsonrcsilva at gmail).
-
-Note that we used the Caffe Framework. Therefore, you will find here the "prototxt" files to replicate our experiments.
-
-But if you don't know Caffe, don't be alarmed! In order to make it easier for you, we are also providing an example implemented in PyTorch, and a Framework will be available soon.
-
-If something here was useful to you, please cite our article (s) below.
-
-
 Here you can find the models, the datasets information and the code used in our experiments ([Copycat](README.md#1-stealing-knowledge-by-persuading-confession-with-random-non-labeled-data) and [Copycat Expansion](README.md#2-copycat-cnn-are-random-non-labeled-data-enough-to-steal-knowledge-from-black-box-models)).
 Feel free to contact me for any questions or suggestions (jacsonrcsilva at gmail).
 
