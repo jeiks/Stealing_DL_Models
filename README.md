@@ -52,4 +52,8 @@ This paper is available on [arXiv](https://arxiv.org/abs/2101.08717)
 
 ## 3. An example of how to use Copycat Method
 
-[Example Code for Copycat in *PyTorch*](Framework)
+[Example Code for Copycat in *PyTorch*](Example_of_use)
+
+## 4. Our Framework in PyTorch to use Copycat Method on your experiments/data
+
+[Copycat Framework](https://github.com/jeiks/copycat_framework)
