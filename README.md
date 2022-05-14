@@ -7,7 +7,9 @@ Note that we used the Caffe Framework ([1](https://caffe.berkeleyvision.org/), [
 Therefore, you will find the "prototxt" files to replicate our experiments.
 
 But if you don't know Caffe, don't be alarmed!
-In order to make it easier for you, we are also providing an [Copycat Example](Framework) implemented in **PyTorch**, and a Framework will be available soon. 
+In order to make it easier for you, we are also providing the following codes implemented in **PyTorch**:
+* [Copycat Example](Example_of_use); and
+* [Copycat Framework](https://github.com/jeiks/copycat_framework) to you apply/test Copycat Method against your own data.
 
 If something here was useful to you, please kindly cite our article (s) below.
 
