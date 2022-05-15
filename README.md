@@ -6,10 +6,13 @@ Feel free to contact me for any questions or suggestions (jacsonrcsilva at gmail
 Note that we used the Caffe Framework ([1](https://caffe.berkeleyvision.org/), [2](https://ngc.nvidia.com/catalog/containers/nvidia:caffe)).
 Therefore, you will find the "prototxt" files to replicate our experiments.
 
-But if you don't know Caffe, don't be alarmed!
+But if you don't want to use Caffe, it is not a problem.
 In order to make it easier for you, we are also providing the following codes implemented in **PyTorch**:
 * [Copycat Example](Example_of_use); and
 * [Copycat Framework](https://github.com/jeiks/copycat_framework) to you apply/test Copycat Method against your own data.
+
+Also, if you want to see an interactive comparison between Oracle and Copycat models, visit: [Copycat CNN Explainer](http://www.jeiks.net/copycat-cnn-explainer/)
+<br>It is implemented in TensorflowJS, using the [CNN Explainer](https://github.com/poloclub/cnn-explainer) system.
 
 If something here was useful to you, please kindly cite our article (s) below.
 
