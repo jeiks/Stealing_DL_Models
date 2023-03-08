@@ -44,7 +44,7 @@ if __name__ == '__main__':
         dataset = ImageList(imglist_fn, color=True, transform=transform, return_filename=False, cache_filename='cache.kxe')
     else:
         dataset = ImageList(imglist_fn, color=True, transform=transform, return_filename=False)
-    loader = torch.utils.data.DataLoader(dataset, batch_size=batch_size)
+    loader = torch.utils.data.DataLoader(dataset, shuffle=True, batch_size=batch_size)
 
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.SGD(model.parameters(), lr=1e-4, momentum=0.9)

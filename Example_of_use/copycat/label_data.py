@@ -30,9 +30,6 @@ if __name__ == '__main__':
     loader = torch.utils.data.DataLoader(dataset, batch_size=batch_size)
 
     print('Generating labels from oracle...')
-    correct = 0
-    total = 0
-    total_steps = len(dataset)//batch_size #aproximate
     with torch.no_grad():
         model.eval()
         with open(output_fn, 'w') as output_fd:
