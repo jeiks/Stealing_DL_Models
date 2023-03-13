@@ -1,3 +1,6 @@
 [submodule "Framework"]
 	path = Framework
 	url = git@github.com:jeiks/copycat_framework.git
+[submodule "copycat_framework"]
+	path = copycat_framework
+	url = https://github.com/jeiks/copycat_framework
