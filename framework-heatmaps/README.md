@@ -2,5 +2,5 @@
 
 For a better visualization, please access [this web page](https://www.jeiks.net/Stealing_DL_Models/framework-heatmaps)
 
-Note: it was used this code for creating the heatmaps: [TorchLRP](https://github.com/fhvilshoj/TorchLRP/)
+Note: it was used this code for creating the heatmaps: [Zennit](https://github.com/chr5tphr/zennit)
 
