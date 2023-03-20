@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    display: block;
+    margin: 5px 0;
+    cursor: pointer;
+    box-shadow: 7px 7px 5px #ccc;
+    border:2px solid #fff;
+    height: 7em;
+}
+
+img:hover {
+    transform: scale(1.2);
+    transition: .5s ease;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    border: 1px solid #333;
+}
+
+div {
+    height: 8em;
+}

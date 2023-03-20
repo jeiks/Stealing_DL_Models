@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+    <head>
+        <title>PDD Heatmaps of the Problems extracted by Copycat Method</title>
+        <style>
+        body {
+            text-align: center;
+            font-size: 1em;
+        }
+        label {
+            display: block;
+            margin-bottom: 20px;
+        }
+        div {
+            width: 200px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            padding: 0;
+            margin:0;
+        }
+        ul > li {
+            display: block;
+            width: 200px;
+            height: 40px;
+            transition: .2s;
+            position: relative;
+            text-align: center;
+        }
+        ul li a:after {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 0%;
+            content: '.';
+            color: transparent;
+            background: black;
+            height: 1px;
+            transition: all .2s;
+        }
+        ul li a:hover:after {
+            /* chave do efeito, passando de 0% para 100% e, então,
+            mostrando o background de 1px de altura */
+            width: 100%;
+        }
+        a {
+        display: block;
+            text-decoration: none;
+            color: black;
+        }
+        </style>
+    </head>
+    <body>
+    <h3>PDD Heatmaps of the Problems extracted by Copycat Method</h3>
+    <div>
+        <nav>
+        <ul>
+            <li><a href="ACT.html">ACT101</a></li>
+            <li><a href="DIG.html">DIG10</a></li>
+            <li><a href="FER.html">FER7</a></li>
+            <li><a href="GOC.html">GOC9</a></li>
+            <li><a href="PED.html">PED2</a></li>
+            <li><a href="SHN.html">SHN10</a></li>
+            <li><a href="SIG.html">SIG30</a></li>
+        </ul>
+        </nav>
+    </div>
+    
+    </body>
+</html>
