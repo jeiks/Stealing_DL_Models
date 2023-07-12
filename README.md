@@ -62,3 +62,16 @@ This paper is available on [arXiv](https://arxiv.org/abs/2101.08717)
 ## 4. Our Framework in PyTorch to use Copycat Method on your experiments/data
 
 [Copycat Framework](https://github.com/jeiks/copycat_framework)
+
+## 5. My Thesis:
+
+[Copycat CNN: Convolutional Neural Network Extraction Attack with Unlabeled Natural Images](https://sappg.ufes.br/tese_drupal//tese_17166_Tese-Jacson-2018142921.pdf)
+([more details](https://informatica.ufes.br/pt-br/pos-graduacao/PPGI/detalhes-da-tese?id=17166))
+
+    @phdthesis{correia-silva-phd-2023,
+        author = {Correia-Silva, Jacson Rodrigues},
+        title = {Copycat CNN: Convolutional Neural Network Extraction Attack with Unlabeled Natural Images},
+        year = {2023},
+        school = {Universidade Federal do Espírito Santo},
+        address = {Espírito Santo, Brazil},
+    }
