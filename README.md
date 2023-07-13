@@ -72,6 +72,6 @@ This paper is available on [arXiv](https://arxiv.org/abs/2101.08717)
         author = {Correia-Silva, Jacson Rodrigues},
         title = {Copycat CNN: Convolutional Neural Network Extraction Attack with Unlabeled Natural Images},
         year = {2023},
-        school = {Universidade Federal do Espírito Santo},
-        address = {Espírito Santo, Brazil},
+        school = {Universidade Federal do Esp\'{i}rito Santo},
+        address = {Esp\'{i}rito Santo, Brazil},
     }
