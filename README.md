@@ -63,12 +63,15 @@ This paper is available on [arXiv](https://arxiv.org/abs/2101.08717)
 
 [Copycat Framework](https://github.com/jeiks/copycat_framework)
 
+[The PyTorch Weights for Oracle and Copycat models can be downloaded here](https://drive.google.com/drive/folders/1t1yANSFisafcLRtt3ibTUp81RF1I2NzP?usp=drive_link)
+
 ## 5. My Thesis:
 
 [Copycat CNN: Convolutional Neural Network Extraction Attack with Unlabeled Natural Images](https://sappg.ufes.br/tese_drupal//tese_17166_Tese-Jacson-2018142921.pdf)
-([more details](https://informatica.ufes.br/pt-br/pos-graduacao/PPGI/detalhes-da-tese?id=17166))
+([more details](https://informatica.ufes.br/pt-br/pos-graduacao/PPGI/detalhes-da-tese?id=17166))<br>
+([2nd download option](https://drive.google.com/file/d/1ceLIJOvPMyRc2IN5hkE3-Ncgp4PxM6wQ/view?usp=sharing))
 
-\[[2nd download option](https://drive.google.com/file/d/1ceLIJOvPMyRc2IN5hkE3-Ncgp4PxM6wQ/view?usp=sharing)\]
+[The PyTorch Weights for Oracle and Copycat models can be downloaded here](https://drive.google.com/drive/folders/1t1yANSFisafcLRtt3ibTUp81RF1I2NzP?usp=drive_link)
 
     @phdthesis{correia-silva-phd-2023,
         author = {Correia-Silva, Jacson Rodrigues},
