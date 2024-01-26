@@ -21,7 +21,7 @@ note: the image lists with replicated images were generated with [image_replicat
 Mean file: [train.mean](train.mean)
 
 <hr>
-To generate the SIG dataset, you have to run the scripts in [dataset_creation](dataset_creation).<br>
+To generate the SIG dataset, you have to run the scripts in [dataset_creation](./dataset_creation/).<br>
 But, before generate the SIG dataset, you must download the TT100K and TSRD datasets.
 
 Then, [download](http://www.nlpr.ia.ac.cn/pal/trafficdata/recognition.html) the following files:
